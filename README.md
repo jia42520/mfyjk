@@ -40,9 +40,10 @@ timeout
 
 ## 快速开始
 
-首次使用先添加执行权限并启动实时监测：
+一键下载 [mfy-instance-usage.sh](https://github.com/jia42520/mfyjk/blob/main/mfy-instance-usage.sh)，添加执行权限并启动实时监测：
 
 ```bash
+curl -fsSL -o mfy-instance-usage.sh https://raw.githubusercontent.com/jia42520/mfyjk/main/mfy-instance-usage.sh
 chmod +x ./mfy-instance-usage.sh
 ./mfy-instance-usage.sh
 ```
